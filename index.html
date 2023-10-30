@@ -71,7 +71,7 @@
             您嘗試訪問的網址已失效或不存在<br/>如需要協助，請聯絡小樹客服
           </div>
           <div class="pb-40px">
-              <button class="btn h-11 w-200px" style="gap: 5px" role="link" @click="navigate">
+              <button class="btn h-11 w-200px" style="gap: 5px" role="link" onClick="navigate('https://www.treepoints.com/')">
                 <div class="items-center justify-center text-16px font-medium leading-16px">
                   回到小樹生活官網
                 </div>
@@ -86,7 +86,9 @@
         <div class="md:justify-start justify-center items-center flex pb-5px" style="gap: 5px;">
             <div class="text-xs font-normal text-gp-gray-600 break-words md:inline inline-block">LINE 官方帳號</div>
             <div class="text-xs font-normal text-gp-gray-600 break-words md:inline inline-block">@treepoints</div>
-            <div class="text-xs font-normal text-gp-gray-500 break-words md:inline inline-block" style="text-decoration: underline;">加入</div>
+            <div class="text-xs font-normal text-gp-gray-500 break-words md:inline inline-block" style="text-decoration: underline;">
+              <a href="https://page.line.me/treepoints">加入</a>
+            </div>
         </div>
         <div style="background-color: #E0E0E0; width: 18px; height: 1px; transform: rotate(90deg);"></div>
         <div class="md:justify-start justify-center items-center flex pb-5px" style="gap: 5px;">
@@ -102,5 +104,10 @@
     </div>      
     </div>
   </div>
+  <script>
+    function navigate(url){
+      window.location.href = url;
+    }
+  </script> 
 </body>
 </html>
