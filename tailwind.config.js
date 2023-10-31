@@ -7,16 +7,21 @@ module.exports = {
     },
     maxWidth: {
       '120px': '120px',
+      '100px': '100px',
       '980px': '980px',
     },
     height : {
       '78px': '78px',
+      '60px': '60px',
       '90px': '90px',
+      '375px': '375px',
       '383px': '383px'
     },
-
+    boxShadow: {
+      '3xl': '0px 2px 6px rgba(0, 0, 0, 0.10)',
+      'none-custom': 'none'
+    },    
     extend: {
-     
       width: {
         '140px': '140px',
         '158px': '158px',
@@ -27,6 +32,7 @@ module.exports = {
         '40px': '40px',
         '30px': '30px',
         '22px': '22px',
+        '25px': '25px',
         '20px': '20px',
         '10px': '10px',
         '7px': '7px',
